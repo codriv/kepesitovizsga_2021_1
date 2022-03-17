@@ -2,9 +2,9 @@ package hu.nive.ujratervezes.kepesitovizsga.army;
 
 public abstract class MilitaryUnit {
 
-    int hitPoints;
-    int damage;
-    boolean armour;
+    protected int hitPoints;
+    protected int damage;
+    protected boolean armour;
 
     public MilitaryUnit() {
     }
